@@ -1,2 +1,2 @@
-# 2017.cssconf.eu
-Website for CSSconf EU 2017
+# 2017.jsconf.eu
+Website for JSConf EU 2017
