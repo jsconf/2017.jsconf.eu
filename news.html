@@ -1,0 +1,25 @@
+---
+  layout: sub-page
+  title: News about JSConf EU 2015
+  title-short: News
+---
+
+<section class="bg-pink-white-off bg-no-border">
+
+  {% for post in site.tags.news %}
+    <article class="wrapper wrapper-post">
+      
+      <div class="item-50 item_deco">
+        <figure>
+          <img src="{{ site.baseurl }}{{ post.figure }}" width="400" height="400">
+        </figure>
+      </div>
+      
+      <div class="item-50 item-content">
+        {{ post.content }}
+      </div>
+    
+    </article>
+  {% endfor %}
+
+</section>

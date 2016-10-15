@@ -1,0 +1,77 @@
+<section class="bg-blue">
+  <div class="wrapper">
+    <div class="item-100 text-light">
+      <h2>Sponsorship</h2>
+      <p class="links-light bottom-margin">
+        We are currently offering sponsorship opportunities for JSConf EU 2015. <a href="mailto:contact@jsconf.eu">Contact us for details</a>. The great companies below are supporting us in 2015 – Thank you!
+      </p>
+
+        {% assign sponsors=site.tags.sponsor %}
+
+        <div class="sponsor-list">
+          {% for post in sponsors %}
+            {% if.post.level == "sponsor-special" %}
+              <a href="{{ site.baseurl }}{{ post.permalink }}">
+                <img src="{{ site.baseurl }}{{ post.image }}" title="{{ post.title }}">
+              </a>
+            {% endif %}
+          {% endfor %}
+
+          <br>
+
+          {% for post in sponsors %}
+            {% if.post.level == "sponsor-main" %}
+              <a href="{{ site.baseurl }}{{ post.permalink }}">
+                <img src="{{ site.baseurl }}{{ post.image }}" title="{{ post.title }}">
+              </a>
+            {% endif %}
+          {% endfor %}
+
+          <br>
+
+          {% for post in sponsors %}
+            {% if.post.level == "sponsor-support" %}
+              <a href="{{ site.baseurl }}{{ post.permalink }}">
+                <img src="{{ site.baseurl }}{{ post.image }}" title="{{ post.title }}">
+              </a>
+            {% endif %}
+          {% endfor %}
+
+          <br>
+
+          {% for post in sponsors %}
+            {% if.post.level == "sponsor-custom" %}
+              <a href="{{ site.baseurl }}{{ post.permalink }}">
+                <img src="{{ site.baseurl }}{{ post.image }}" title="{{ post.title }}">
+              </a>
+            {% endif %}
+          {% endfor %}
+
+          <br>
+
+        {% for post in sponsors %}
+            {% if.post.level == "sponsor-verycustom" %}
+              <a href="{{ site.baseurl }}{{ post.permalink }}">
+                <img src="{{ site.baseurl }}{{ post.image }}" title="{{ post.title }}">
+              </a>
+            {% endif %}
+        {% endfor %}
+
+          <br>
+
+          <p style="color:#333">
+            Travel sponsors:
+            Atlassian,
+            VhTO,
+            Namely,
+            ThoughtWorks,
+            Angefragt,
+            Opera Software ASA,
+            Zendesk,
+            Google – Thank you!
+          </p>
+
+        </div>
+    </div>
+  </div>
+</section>

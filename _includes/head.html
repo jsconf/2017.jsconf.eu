@@ -1,0 +1,47 @@
+<head>
+  <meta charset="utf-8" />
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="canonical" href="http://2015.jsconf.eu{{ page.url | replace:'index.html','' }}" />
+  <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/screen.css" type="text/css" media="screen, projection" />
+  <script src="//use.typekit.net/ekp1paj.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <meta name="google-site-verification" content="H6VZ353SM0CfTqymvhQPM0eLyWffpeRfyRjFlXLwNn0" />
+  {% if page.image %}
+  <meta name="twitter:card" content="summary_large_image">
+  {% else %}
+  <meta name="twitter:card" content="summary">
+  {% endif %}
+  <meta name="twitter:site" content="@jsconfeu">
+  {% if page.video %}
+  <meta property="og:video" content="http://www.youtube.com/v/{{ page.video }}">
+  {% endif %}
+  {% assign image_filename="/img/js.eu.png" %}
+  {% if page.image %}
+    {% assign image_filename=page.image %}
+    {% if page.image.filename %}
+      {% assign image_filename=page.image.filename %}
+    {% endif %}
+  {% endif %}
+  <meta itemprop="image" content="http://2015.jsconf.eu{{ image_filename }}">
+  <meta name="twitter:image" content="http://2015.jsconf.eu{{ image_filename }}">
+  <meta property="og:image" content="http://2015.jsconf.eu{{ image_filename }}"/>
+
+  {% if page.twitter %}
+  <meta name="twitter:creator" content="@{{ page.twitter | split:'/' | last }}">
+  {% else %}
+  <meta name="twitter:creator" content="@jsconfeu">
+  {% endif %}
+  <meta itemprop="name" content="{{ page.title }}">
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta property="og:title" content="{{ page.title }}" />
+  {% if page.description %}
+  <meta name="description" itemprop="description" content="{{page.description | truncatewords:50}}">
+  <meta name="twitter:description" content="{{page.description | truncatewords:50}}">
+  <meta property="og:description" content="{{page.description | truncatewords:50}}">
+  {% else %}
+  <meta name="twitter:description" content="{{page.excerpt | strip_html | strip_newlines | truncatewords:50}}">
+  {% endif %}
+</head>
