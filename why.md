@@ -6,9 +6,9 @@
 
 # Why JSConf EU
 
-> Our biggest reward as conference organisers is people doing great things with something they learned at or with someone they met at the conference.
+> Our biggest reward as conference organizers is people doing great things with something they learned at or with someone they met at the conference.
 
-We are inviting the JavaScript community to attend the upcoming JSConf EU (September 25th & 27th, Berlin). Ticket Sales start on February 1st 2017, and will also be [announced on our Twitter account](https://twitter.com/jsconfeu).
+We are inviting the JavaScript community to attend the upcoming JSConf EU (May 6-7 Berlin). For ticket sales [watch our  Twitter account](https://twitter.com/jsconfeu).
 
 <img
     src="{{ site.baseurl }}/img/jsconfeu-group-2014.jpg"
@@ -27,7 +27,7 @@ JSConf EU celebrates its host city Berlin. What better way to invite all of Berl
 
 ## Topics
 
-To get a feel for the kind of talks you will be able to see, here is the programme for the past years ([2009](http://jsconf.eu/2009/speakers.html), [2010](http://jsconf.eu/2010/speakers.html), [2011](http://jsconf.eu/2011/speakers.html), [2012](http://2012.jsconf.eu/speakers.html), [2013](http://2013.jsconf.eu/speakers/), [2014](http://2014.jsconf.eu/speakers/)).
+To get a feel for the kind of talks you will be able to see, here is the programme for the past years ([2009](http://jsconf.eu/2009/speakers.html), [2010](http://jsconf.eu/2010/speakers.html), [2011](http://jsconf.eu/2011/speakers.html), [2012](http://2012.jsconf.eu/speakers.html), [2013](http://2013.jsconf.eu/speakers/), [2014](http://2014.jsconf.eu/speakers/)), [2015](http://2015.jsconf.eu/speakers/)).
 
 
 ## The Good Stuff
@@ -50,7 +50,7 @@ Everybody is welcome at JSConf EU and to make sure everybody feels at home, we�
 - We can arrange for sign language interpreters on request. Again, please let us know, so we can plan accordingly.
 - While this is a social event and meeting people is a strong focus, we are equally welcoming to the more introverted type of person who prefers to quietly see the talks. You can take a breather by the riverside or in the grassy spaces nearby during the breaks.
 
-If you have any questions, please get in touch: [curators@jsconf.eu](mailto:&#x63;&#x75;&#x72;&#x61;&#x74;&#x6F;&#x72;&#x73;&#x40;&#x6A;&#x73;&#x63;&#x6F;&#x6E;&#x66;&#x2E;&#x65;&#x75;) or, if you prefer individually: [tiffany@jsconf.eu](mailto:&#x63;&#x75;&#x72;&#x61;&#x74;&#x6F;&#x72;&#x73;&#x40;&#x6A;&#x73;&#x63;&#x6F;&#x6E;&#x66;&#x2E;&#x65;&#x75;), [jan@jsconf.eu](mailto:&#x63;&#x75;&#x72;&#x61;&#x74;&#x6F;&#x72;&#x73;&#x40;&#x6A;&#x73;&#x63;&#x6F;&#x6E;&#x66;&#x2E;&#x65;&#x75;), [holger@jsconf.eu](mailto:&#x63;&#x75;&#x72;&#x61;&#x74;&#x6F;&#x72;&#x73;&#x40;&#x6A;&#x73;&#x63;&#x6F;&#x6E;&#x66;&#x2E;&#x65;&#x75;), [malte@jsconf.eu](mailto:&#x63;&#x75;&#x72;&#x61;&#x74;&#x6F;&#x72;&#x73;&#x40;&#x6A;&#x73;&#x63;&#x6F;&#x6E;&#x66;&#x2E;&#x65;&#x75;).
+If you have any questions, please get in touch: [curators@jsconf.eu](mailto:&#x63;&#x75;&#x72;&#x61;&#x74;&#x6F;&#x72;&#x73;&#x40;&#x6A;&#x73;&#x63;&#x6F;&#x6E;&#x66;&#x2E;&#x65;&#x75;) or, if you prefer individually: [jan@jsconf.eu](mailto:&#x63;&#x75;&#x72;&#x61;&#x74;&#x6F;&#x72;&#x73;&#x40;&#x6A;&#x73;&#x63;&#x6F;&#x6E;&#x66;&#x2E;&#x65;&#x75;), [holger@jsconf.eu](mailto:&#x63;&#x75;&#x72;&#x61;&#x74;&#x6F;&#x72;&#x73;&#x40;&#x6A;&#x73;&#x63;&#x6F;&#x6E;&#x66;&#x2E;&#x65;&#x75;), [malte@jsconf.eu](mailto:&#x63;&#x75;&#x72;&#x61;&#x74;&#x6F;&#x72;&#x73;&#x40;&#x6A;&#x73;&#x63;&#x6F;&#x6E;&#x66;&#x2E;&#x65;&#x75;).
 
 ## Previous experiences
 
@@ -74,25 +74,16 @@ If you have any questions, please get in touch: [curators@jsconf.eu](mailto:&#x6
 
 > “I most enjoyed the fact that I felt completely included and taken care of by the conference and my peers.”
 
-{% assign video_id="96055758" %}
-{% include vimeo.md %}
+{% assign video_id="VHbnuNng0M8" %}
+{% include youtube.md %}
 
 ## Schedule-ish
 
-Related Events:
-- Monday-Saturday: [JSFest Berlin](http://jsfest.berlin)
-- Thursday: [Reject.js](http://rejectjs.org)
-- Saturday: [CSSConf EU](http://2017.cssconf.eu)
-
-Main Event
-- Friday & Sunday: JSConf EU
-- Begin at ~9am on Friday, ~10am Sunday.
+- Saturday & Sunday: JSConf EU
+- Friday: [CSSConf EU](http://2017.cssconf.eu)
 - Both days include a full breakfast and lunch with vegetarians, vegans and celiacs catered for. If you have any special dietary restrictions, please let us know, so we can accommodate you.
-- On Friday, we provide a full dinner for everyone, just preceding the social event.
+- On Saturday, we provide a full dinner for everyone, just preceding the social event.
 - On Sunday, the dinner is on you, but we all meet again at the social event site, and we will have it somewhere with a variety of street food and restaurant options nearby.
-
-Post Events:
-- Monday 11:00-15:00: Relax.js, a full brunch open to all, on us.
 
 ## Buy a ticket
 
