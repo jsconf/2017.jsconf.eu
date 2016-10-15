@@ -1,6 +1,6 @@
 ---
   layout: sub-page
-  title: Speakers of JSConf EU 2015
+  title: Speakers of JSConf EU 2017
   title-short: Speakers
   tags: foo
 ---
@@ -18,7 +18,7 @@
   <div class="item-100">
     <a style="display:none" href="https://maps.google.com" target="_blank"><img id="speakers_map" src="{{ site.speaker_index_base_url | uri_escape }}0xE10079%7Csize:tiny{% for post in speakers %}%7C{% if post.from != "" %}{{ post.from | cgi_escape }}{% endif %}{% endfor %}" /></a>
   </div>
-  
+
 </section> -->
 
 <section class="bg-pink-white-off bg-no-border">

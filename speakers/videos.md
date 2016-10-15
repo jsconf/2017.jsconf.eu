@@ -1,6 +1,6 @@
 ---
   layout: sub-page
-  title: JavaScript conference talk videos of JSConf EU 2015
+  title: JavaScript conference talk videos of JSConf EU 2017
   title-short: Videos
   tags: foo
   permalink: "/videos/"

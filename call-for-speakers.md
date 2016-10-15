@@ -138,7 +138,7 @@ Here’s a proposal that we accepted in 2012:
 
 ## Guidelines
 
-Submit your proposal by **May 31st 2015, 23:59:59 CEST**. No excuses.
+Submit your proposal by **May 31st 2017, 23:59:59 CEST**. No excuses.
 
 All talks are **in English**.
 
@@ -165,4 +165,4 @@ Finally, since you retain full ownership of your slides and recording, we’d li
 ## Submit Your Talk
 
 Fill out our talk proposal form:
-[https://bit.ly/jsconfeu-2015-cfp](https://bit.ly/jsconfeu-2015-cfp)
+[https://bit.ly/jsconfeu-2017-cfp](https://bit.ly/jsconfeu-2017-cfp)

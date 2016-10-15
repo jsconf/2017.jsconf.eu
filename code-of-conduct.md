@@ -1,6 +1,6 @@
 ---
   layout: simple-page
-  title: Code of Conduct - JSConf EU 2015
+  title: Code of Conduct - JSConf EU 2017
   title-short: Code of Conduct
 ---
 

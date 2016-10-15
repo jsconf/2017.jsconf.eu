@@ -1,6 +1,6 @@
 ---
   layout: simple-page
-  title: Accessibility - JSConf EU 2015
+  title: Accessibility - JSConf EU 2017
   title-short: Accessibility
 ---
 

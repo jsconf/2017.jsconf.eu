@@ -1,4 +1,4 @@
-2015.jsconf.eu
+2017.jsconf.eu
 ==============
 
 ### Develop

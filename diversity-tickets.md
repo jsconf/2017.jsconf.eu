@@ -1,6 +1,6 @@
 ---
   layout: simple-page
-  title: Diversity Tickets at JSConf EU 2015
+  title: Diversity Tickets at JSConf EU 2017
   title-short: Diversity
 ---
 

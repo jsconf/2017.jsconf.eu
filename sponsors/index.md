@@ -1,6 +1,6 @@
 ---
   layout: simple-page
-  title: Sponsorship for JSConf EU 2015
+  title: Sponsorship for JSConf EU 2017
   title-short: Sponsors
   pattern: bg-pink-white
 ---
@@ -9,11 +9,19 @@
 {% assign overview=true %}
 
 <p>
-  We are still offering sponsorship packages and partnerships for JSConf EU 2015. <a href="mailto:contact@jsconf.eu">Contact us for details</a>.
+  We are offering sponsorship packages and partnerships for JSConf EU 2017. <a href="mailto:contact@jsconf.eu">Contact us for details</a>.
 </p>
 
 <p>
-  These companies are our supporters in 2015:
+  Check out our a summary video of the last JSConf EU for a closer look at the event.
+</p>
+
+<div class="embed_container">
+  <iframe width="560" height="315" src="http://www.youtube.com/embed/VHbnuNng0M8" frameborder="0" allowfullscreen="true"></iframe>
+</div>
+
+<!-- <p>
+  These companies are our supporters in 2017:
 </p>
 
 {% for post in sponsors %}
@@ -91,3 +99,4 @@
     <li>Google<Uli>
   </ul>
 </div>
+-->
