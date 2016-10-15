@@ -1,0 +1,34 @@
+---
+  layout: sub-page
+  title-short: Sponsors
+---
+
+<section class="bg-pink-white-off bg-no-border">
+
+  <article class="wrapper wrapper-post">
+
+    <div class="item-50 item-deco">
+      <figure class="figure-sponsor">
+        <img src="{{ site.baseurl }}{{page.image}}" />
+      </figure>
+    </div>
+    <div class="item-50 item-content">
+      <h3>
+        <a href="{% if page.link %}{{page.link}}{% else %}{{ site.baseurl }}{{page.permalink}}{% endif %}">{{ page.title }}</a>
+      </h3>
+      {{content}}
+      <p>
+        {{% if page.link %}}
+        <a href="{{page.link}}">{{page.link}}</a>
+        {{% endif %}}
+      </p>
+      <p>
+        {{% if page.link2 %}}
+        <a href="{{page.link2}}">{{page.link2}}</a>
+        {{% endif %}}
+      </p>
+    </div>
+
+  </article>
+
+</section>
