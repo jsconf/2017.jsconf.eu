@@ -25,7 +25,7 @@
 </p>
 
 {% for post in sponsors %}
-  {% if.post.level == "sponsor-special" %}
+  {% if post.level == "sponsor-special" %}
   <div class="sponsor">
     <img src="{{ site.baseurl }}{{post.image}}" class="img-flex" />
     <h4>
@@ -37,7 +37,7 @@
 {% endfor %}
 
 {% for post in sponsors %}
-  {% if.post.level == "sponsor-main" %}
+  {% if post.level == "sponsor-main" %}
   <div class="sponsor">
     <img src="{{ site.baseurl }}{{post.image}}" class="img-flex" />
     <h4>
@@ -49,7 +49,7 @@
 {% endfor %}
 
 {% for post in sponsors %}
-  {% if.post.level == "sponsor-support" %}
+  {% if post.level == "sponsor-support" %}
   <div class="sponsor">
     <img src="{{ site.baseurl }}{{post.image}}" class="img-flex" />
     <h4>
@@ -61,7 +61,7 @@
 {% endfor %}
 
 {% for post in sponsors %}
-  {% if.post.level == "sponsor-custom" %}
+  {% if post.level == "sponsor-custom" %}
   <div class="sponsor">
     <img src="{{ site.baseurl }}{{post.image}}" class="img-flex" />
     <h4>
@@ -73,7 +73,7 @@
 {% endfor %}
 
 {% for post in sponsors %}
-  {% if.post.level == "sponsor-verycustom" %}
+  {% if post.level == "sponsor-verycustom" %}
   <div class="sponsor">
     <a href="{{ site.baseurl }}{{post.permalink}}"><img src="{{ site.baseurl }}{{post.image}}" class="img-flex" /></a>
     <h4>
