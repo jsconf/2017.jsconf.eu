@@ -15,7 +15,7 @@ This is what we call a “Hybrid CFP”: If you think you have something great t
 
 ## Topics
 
-To get a feel for what we are interested in hearing about, here is the programme for the past years ([2009](http://jsconf.eu/2009/speakers.html), [2010](http://jsconf.eu/2010/speakers.html), [2011](http://jsconf.eu/2011/speakers.html), [2012](http://2012.jsconf.eu/speakers.html), [2013](http://2013.jsconf.eu/speakers/), [2014](http://2014.jsconf.eu/speakers/)).
+To get a feel for what we are interested in hearing about, here is the programme for the past years ([2009](http://jsconf.eu/2009/speakers.html), [2010](http://jsconf.eu/2010/speakers.html), [2011](http://jsconf.eu/2011/speakers.html), [2012](http://2012.jsconf.eu/speakers.html), [2013](http://2013.jsconf.eu/speakers/), [2014](http://2014.jsconf.eu/speakers/)), [2015](http://2015.jsconf.eu/speakers/)).
 
 We like to see anything that squarely fits into the spectrum of:
 
@@ -138,7 +138,7 @@ Here’s a proposal that we accepted in 2012:
 
 ## Guidelines
 
-Submit your proposal by **May 31st 2017, 23:59:59 CEST**. No excuses.
+Submit your proposal by **Jan 1st 2017, 23:59:59 CEST**. No excuses.
 
 All talks are **in English**.
 
@@ -164,5 +164,4 @@ Finally, since you retain full ownership of your slides and recording, we’d li
 
 ## Submit Your Talk
 
-Fill out our talk proposal form:
-[https://bit.ly/jsconfeu-2017-cfp](https://bit.ly/jsconfeu-2017-cfp)
+[Fill out our talk proposal form](https://docs.google.com/forms/d/e/1FAIpQLSfIGK62QMNyLTWBEhovfr5Bly7pfcDW86jBEO3vUGtdUhcFuQ/viewform)
