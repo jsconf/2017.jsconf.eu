@@ -9,7 +9,7 @@
 
 > “JSConf EU — This is your conference.”
 
-We are inviting the JavaScript community to submit talks for the upcoming JSConf EU (Friday September 25th and Sunday 27th, Berlin). This Call for Presentation **closes on May 31st**.
+We are inviting the JavaScript community to submit talks for the upcoming JSConf EU (May 6-7 2017, Berlin). This Call for Presentation **closes on Jan 1st**.
 
 This is what we call a “Hybrid CFP”: If you think you have something great to talk about, tell us all about it and we consider your entry. If you know someone who has something great to talk about, nominate them. And if you are interested in hearing about a particular topic, nominate the topic, and we can try and find a match.
 
@@ -100,7 +100,7 @@ If you get selected as a speaker at JSConf EU, here’s what you get:
 
  * **Entrance to the conference.** We won’t be done with the speaker selections by the end of the ticket sales, so if you want to make sure you can attend, you may want to purchase a ticket regardless. If you get selected to speak and if you need to, we can refund your ticket, but if we don’t, we can spend more money on making the conference more awesome.
 
- * **We cover your stay in Berlin** in a hotel near the venue (including free Wifi) for the days of the conference and a day before and after (i.e. September 24th-28th). If you want to stay longer, we can arrange things, just let us know. You will have to cover extra nights, though. There will be satellite events in the week before and possibly after JSConf.
+ * **We cover your stay in Berlin** in a hotel near the venue (including free Wifi) for the days of the conference and a day before and after (i.e. May 5-8 2017). If you want to stay longer, we can arrange things, just let us know. You will have to cover extra nights, though. There will be satellite events in the week before and possibly after JSConf.
 
 <small>If your employer can cover your travel and hotel, we are happy to list them as an awesome company sponsor. The money we save will be used to make the conference more awesome. (You might see a pattern …)</small>
 
