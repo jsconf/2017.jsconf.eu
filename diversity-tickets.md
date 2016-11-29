@@ -16,4 +16,4 @@ We see diversity outreach in the form of sponsored tickets as one small way to h
 
 ## Who gets a Diversity Ticket?
 
-In a few months, we will open applications for Diversity Tickets. We do outreach with organizations that represent marginalised groups in tech to reach the right audience. We'll have a lottery for the available spots, with priority based on a combination of need and impact. The number of spots is determined by Diversity Support Ticket sales.
+In a few months, we will open applications for Diversity Tickets. We do outreach with organizations that represent marginalized groups in tech to reach the right audience. We'll have a lottery for the available spots, with priority based on a combination of need and impact. The number of spots is determined by Diversity Support Ticket sales.
