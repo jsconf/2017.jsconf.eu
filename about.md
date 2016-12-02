@@ -7,6 +7,8 @@
 
 > “This was probably one of the best weekends of my life, meeting great people, listening to talented developers share their experiences with us and getting inspired by a lot of them.”
 
+See also: [Why you should attend JSConf EU.](/why)
+
 JSConf EU, the labour-of-love conference for the JS community in Europe. Let the moving images speak for themselves:
 
 ## 2015 Summary
