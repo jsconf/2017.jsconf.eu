@@ -18,7 +18,7 @@ The application process is simple: Tell us about what you do with JS or CSS, and
 
 **→ [Apply now for the JSConf EU / CSSconf EU Scholarship](https://docs.google.com/forms/d/e/1FAIpQLSfMxkhodtfYjJLJAV_q70bmcb7tiF7ubEuFRCOF_mkfLfPUMA/viewform)**
 
-Scholarships are made possible by a joint effort of JSConf EU and CSSconf EU attendees and sponsors. Our attendees have raised over 40,000 EUR for scholarship tickets to the conferences in 2015. We are very proud to be part of this community for showing their support of this initiative. **Thank you!**
+Scholarships are made possible by a joint effort of JSConf EU and CSSconf EU attendees and sponsors. Our attendees raised over 40,000 EUR for scholarship tickets to the conferences in 2015. We are very proud to be part of this community for showing their support of this initiative. **Thank you!**
 
 And let’s do it again! You help is needed again this year. Talk to us if you’d like to get involved: <a href="mailto:contact@jsconf.eu">contact@jsconf.eu</a>.
 
