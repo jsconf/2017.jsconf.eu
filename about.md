@@ -31,6 +31,10 @@ JSConf EU, the labour-of-love conference for the JS community in Europe. Let the
 {% assign video_id="30988223" %}
 {% include vimeo.md %}
 
+## Location
+
+See [dedicated page for details.](/location/)
+
 ## Curators
 
 JSConf EU is brought to you by these people:
