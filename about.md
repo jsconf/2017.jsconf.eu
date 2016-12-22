@@ -46,6 +46,12 @@ JSConf EU is brought to you by these people:
 </p>
 
 <p class="curator">
+  <img alt='Karolina Szczur' height='280' src='{{ site.baseurl }}/img/karolina.jpg' width='280' />
+  Karolina Szczur |
+  <a href='https://twitter.com/fox' target='_blank'>@fox</a>
+</p>
+
+<p class="curator">
   <img alt='Malte Ubl' height='280' src='{{ site.baseurl }}/img/malte.jpg' width='280' />
   <a href='https://plus.google.com/u/0/116910304844117268718/posts' target='_blank'>+Malte Ubl</a> |
   <a href='https://twitter.com/cramforce' target='_blank'>@cramforce</a>
@@ -65,9 +71,5 @@ JSConf EU is brought to you by these people:
   <a href='https://twitter.com/theophani' target='_blank'>@theophani</a>
 </p>
 
-<p class="curator">
-  <img alt='Karolina Szczur' height='280' src='{{ site.baseurl }}/img/karolina.jpg' width='280' />
-  Karolina Szczur |
-  <a href='https://twitter.com/fox' target='_blank'>@fox</a>
-</p>
+
 
