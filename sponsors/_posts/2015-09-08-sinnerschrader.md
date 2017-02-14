@@ -1,4 +1,4 @@
- ---
+---
 layout: sponsor-page
 tags: sponsor
 level: sponsor-special
