@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: speaker-page
 tags: speaker
 title: Immutable data structures for functional JS – Anjana Vakil
 permalink: /speakers/anjana-vakil-immutable-data-structures-for-functional-js.html

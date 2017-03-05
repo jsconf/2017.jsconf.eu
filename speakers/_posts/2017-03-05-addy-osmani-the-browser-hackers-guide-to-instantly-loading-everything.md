@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: speaker-page
 tags: speaker
 title: The Browser Hackers Guide To Instantly Loading Everything – Addy Osmani
 permalink: /speakers/addy-osmani-the-browser-hackers-guide-to-instantly-loading-everything.html

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: speaker-page
 tags: speaker
 title: JavaScript engines - how do they even? – Franziska Hinkelmann
 permalink: /speakers/franziska-hinkelmann-javascript-engines-how-do-they-even.html

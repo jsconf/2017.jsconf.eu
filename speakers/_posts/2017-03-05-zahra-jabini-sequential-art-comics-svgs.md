@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: speaker-page
 tags: speaker
 title: 'Sequential Art, Comics & SVGs – Zahra Jabini'
 permalink: /speakers/zahra-jabini-sequential-art-comics-svgs.html

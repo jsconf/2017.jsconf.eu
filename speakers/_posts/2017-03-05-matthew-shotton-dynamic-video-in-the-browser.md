@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: speaker-page
 tags: speaker
 title: Dynamic video in the browser – Matthew Shotton
 permalink: /speakers/matthew-shotton-dynamic-video-in-the-browser.html
