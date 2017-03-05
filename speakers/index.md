@@ -38,7 +38,7 @@
       <h2>Check back soon!</h2>
       JSConf EU will be featuring over 40 speakers from around the world. More speakers will be announced over the coming weeks.
     </div>
-  </section>
+  </article>
 
 </section>
 
