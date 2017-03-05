@@ -50,7 +50,6 @@
           {% if page.website != ""  %}<li><a href="{{ page.website }}" itemprop="url" target="_blank">Website</a></li>{% endif %}
           {% if page.github != ""  %}<li><a href="{{ page.github }}" itemprop="url" target="_blank">Github</a></li>{% endif %}
           {% if page.twitter != ""  %}<li><a href="{{ page.twitter }}" itemprop="url" target="_blank">Twitter</a></li>{% endif %}
-          {% if page.gplus != ""  %}<li><a href="{{ page.gplus }}" itemprop="url" target="_blank">Google+</a></li>{% endif %}
           {% if page.github2 %}<li><a href="{{ page.github2 }}" itemprop="url" target="_blank">Github</a></li>{% endif %}
           {% if page.twitter2 %}<li><a href="{{ page.twitter2 }}" itemprop="url" target="_blank">Twitter</a></li>{% endif %}
         </ul>
@@ -59,7 +58,7 @@
 
     <div class="description">
       <div itemprop="description">
-        
+
         {{ page.description | markdownify }}
 
         {% if page.video %}

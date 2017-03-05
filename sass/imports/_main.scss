@@ -162,18 +162,6 @@ nav {
 section .wrapper {
   padding-top: 3em;
   padding-bottom: 3em;
-  @include tablet {
-    padding-top: 4.5em;
-    padding-bottom: 4.5em;
-  }
-  @include desktop {
-    padding-top: 6em;
-    padding-bottom: 6em;
-  }
-  @include bigscreen {
-    padding-top: 8.5em;
-    padding-bottom: 8.5em;
-  }
 }
 
 
