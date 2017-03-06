@@ -8,4 +8,4 @@ figure: /img/what-next.jpg
 
 {% include post-header.html %}
 
-Tickets are coming back on sale on February 17th. [Details over here](/news/2016/11/29/tickets/).
+Tickets are coming back on sale on March 9th. [Details over here](/news/2016/11/29/tickets/).
