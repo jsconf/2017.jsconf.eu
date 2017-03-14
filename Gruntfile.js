@@ -22,13 +22,13 @@ module.exports = function(grunt) {
             }
           }
         },
-        
+
         shell: {
             jekyllServe: {
-                command: "LANG='en_US.UTF-8' LC_ALL='en_US.UTF-8' jekyll serve --safe --trace --baseurl ''"
+                command: "LANG='en_US.UTF-8' LC_ALL='en_US.UTF-8' jekyll serve --safe --trace --baseurl '' --future"
             },
             jekyllBuild: {
-                command: "LANG='en_US.UTF-8' LC_ALL='en_US.UTF-8' jekyll build --safe --trace"
+                command: "LANG='en_US.UTF-8' LC_ALL='en_US.UTF-8' jekyll build --safe --trace --future"
             }
         },
 
