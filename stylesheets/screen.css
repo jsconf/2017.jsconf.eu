@@ -876,31 +876,32 @@ figure img {
 .sponsor-list a.supporting, .sponsor-list a.other {
   width: 120px;
   height: 90px;
+  margin: 0.6em 0.6em;
 }
 @media (min-width: 768px) {
-  /* line 457, ../sass/imports/_main.scss */
+  /* line 458, ../sass/imports/_main.scss */
   .sponsor-list a.supporting {
     width: 200px;
     height: 150px;
   }
-  /* line 462, ../sass/imports/_main.scss */
+  /* line 463, ../sass/imports/_main.scss */
   .sponsor-list a.other {
     width: 170px;
     height: 120px;
   }
 }
-/* line 468, ../sass/imports/_main.scss */
+/* line 469, ../sass/imports/_main.scss */
 .sponsor-list a img {
   width: 100%;
   height: 100%;
 }
 
-/* line 478, ../sass/imports/_main.scss */
+/* line 479, ../sass/imports/_main.scss */
 .speaker-header {
   position: relative;
 }
 
-/* line 482, ../sass/imports/_main.scss */
+/* line 483, ../sass/imports/_main.scss */
 .speaker-aside img {
   width: 100%;
   height: auto;
@@ -908,7 +909,7 @@ figure img {
   margin-bottom: 1.5em;
   max-width: 320px;
 }
-/* line 488, ../sass/imports/_main.scss */
+/* line 489, ../sass/imports/_main.scss */
 .speaker-aside .speaker-info {
   font-size: .7857em;
   line-height: 1.27;
@@ -916,12 +917,12 @@ figure img {
   list-style: none;
   padding-left: 0;
 }
-/* line 493, ../sass/imports/_main.scss */
+/* line 494, ../sass/imports/_main.scss */
 .speaker-aside .speaker-info a {
   display: block;
 }
 @media (min-width: 768px) {
-  /* line 481, ../sass/imports/_main.scss */
+  /* line 482, ../sass/imports/_main.scss */
   .speaker-aside {
     position: absolute;
     top: 0;
@@ -932,24 +933,24 @@ figure img {
   }
 }
 
-/* line 509, ../sass/imports/_main.scss */
+/* line 510, ../sass/imports/_main.scss */
 .video {
   border-bottom: 3px solid #E10079;
   margin-bottom: 1.5em;
 }
 
-/* line 514, ../sass/imports/_main.scss */
+/* line 515, ../sass/imports/_main.scss */
 .video-preview {
   float: right;
   margin-left: 20px;
   margin-bottom: 1em;
   position: relative;
 }
-/* line 519, ../sass/imports/_main.scss */
+/* line 520, ../sass/imports/_main.scss */
 .video-preview img {
   display: block;
 }
-/* line 522, ../sass/imports/_main.scss */
+/* line 523, ../sass/imports/_main.scss */
 .video-preview .video-preview-icon {
   position: absolute;
   top: 0;
@@ -958,20 +959,20 @@ figure img {
   height: 100%;
   text-align: center;
 }
-/* line 529, ../sass/imports/_main.scss */
+/* line 530, ../sass/imports/_main.scss */
 .video-preview .video-preview-icon svg {
   max-width: 25%;
   height: 100%;
 }
 
-/* line 536, ../sass/imports/_main.scss */
+/* line 537, ../sass/imports/_main.scss */
 .video_info {
   margin-bottom: 1.5em;
   font-size: .7857em;
   line-height: 1.27;
 }
 
-/* line 541, ../sass/imports/_main.scss */
+/* line 542, ../sass/imports/_main.scss */
 .backup-logo {
   display: none;
 }

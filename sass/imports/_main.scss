@@ -451,6 +451,7 @@ figure {
     &.supporting, &.other {
       width: 120px;
       height: 90px;
+      margin: 0.6em 0.6em;
     }
 
     @include tablet {
