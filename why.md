@@ -27,7 +27,7 @@ JSConf EU celebrates its host city Berlin. What better way to invite all of Berl
 
 ## Topics
 
-To get a feel for the kind of talks you will be able to see, here is the programme for the past years ([2009](http://jsconf.eu/2009/speakers.html), [2010](http://jsconf.eu/2010/speakers.html), [2011](http://jsconf.eu/2011/speakers.html), [2012](http://2012.jsconf.eu/speakers.html), [2013](http://2013.jsconf.eu/speakers/), [2014](http://2014.jsconf.eu/speakers/)), [2015](http://2015.jsconf.eu/speakers/)).
+To get a feel for the kind of talks you will be able to see, here is the programme for the past years ([2009](http://jsconf.eu/2009/speakers.html), [2010](http://jsconf.eu/2010/speakers.html), [2011](http://jsconf.eu/2011/speakers.html), [2012](http://2012.jsconf.eu/speakers.html), [2013](http://2013.jsconf.eu/speakers/), [2014](http://2014.jsconf.eu/speakers/)), [2015](http://2015.jsconf.eu/speakers/), [2016](http://2016.jsconf.eu/speakers/)).
 
 
 ## The Good Stuff
@@ -36,7 +36,7 @@ A JSConf EU ticket includes the following:
 
 - A wide range of refreshing drinks and overflowing coffee including a barista making coffee on request.
 - Both days include a full breakfast and lunch with delicious options for omnivores, vegetarians, vegans, and people with celiac disease. If you have any special dietary requirements, please let us know, so we can accommodate you.
-- On Friday, we provide a full dinner for everyone, before the social event.
+- On Friday, we provide a full dinner for CSSconf attendees, before the social event. The social event is open to all ticket holders.
 - On Sunday, the dinner is on you, but we all meet again at the social event site, and we will host it somewhere with a variety of street food and restaurant options nearby.
 - On Monday, we provide a relaxing brunch with conference attendees who are on their way back home. Conveniently located close to a transit hub, so getting to trains and planes is a snap.
 
@@ -88,4 +88,3 @@ If you have any questions, please get in touch: [curators@jsconf.eu](mailto:&#x6
 ## Buy a ticket
 
 See our [announcements on our Twitter account](https://twitter.com/jsconfeu) for when tickets will be available.
-
