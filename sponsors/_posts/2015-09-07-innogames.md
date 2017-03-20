@@ -4,7 +4,7 @@ tags: sponsor
 level: sponsor-support
 title: InnoGames
 permalink: "/sponsors/innogames.html"
-image: "/sponsors/images/innogames.png"
+image: "/sponsors/images/innogames.svg"
 link: "https://www.innogames.com/"
 ---
 

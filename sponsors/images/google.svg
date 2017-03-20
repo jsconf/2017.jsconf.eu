@@ -8,7 +8,11 @@
    version="1.1"
    width="1e3"
    height="328.56"
-   id="svg2">
+   id="svg2"
+   viewBox="0 0 1000 329"
+
+   >
+
   
   <path
      style="fill:#4285f4;fill-opacity:1"

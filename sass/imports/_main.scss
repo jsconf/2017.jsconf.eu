@@ -436,27 +436,38 @@ figure {
   .sponsor-group {
     margin-bottom: 2em;
   }
+
   a {
     display: inline-flex;
     vertical-align: middle;
-    max-width: 240px;
+    width: 240px;
     height: 180px;
     margin: 0.9em 0.9em;
     background-color: #fff;
     padding: 1em;
     align-items: center;
     justify-content: center;
+
+    &.supporting, &.other {
+      width: 120px;
+      height: 90px;
+    }
+
+    @include tablet {
       &.supporting {
-        max-width: 200px;
+        width: 200px;
         height: 150px;
       }
+
       &.other{
-        max-width: 170px;
+        width: 170px;
         height: 120px;
       }
+    }
+
     img {
       width: 100%;
-      height: auto;
+      height: 100%;
     }
   }
 }
