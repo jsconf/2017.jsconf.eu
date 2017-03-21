@@ -1,0 +1,25 @@
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1660">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{clip-path:url(#clip-path)}.cls-3{fill:#3c6ab1}.cls-3,.cls-4,.cls-5,.cls-6,.cls-7{fill-rule:evenodd}.cls-4{fill:#4e519d}.cls-5{fill:#f196b2}.cls-6{fill:#59bba9}.cls-7{fill:#ec6b59}.cls-8{fill:#fac128}.cls-9{fill:#55b049}.cls-10{font-size:154.5px;fill:#1d1d1b;font-family:GTWalsheimMedium,GT Walsheim}.cls-11{letter-spacing:-.08em}.cls-12{letter-spacing:-.02em}.cls-13{letter-spacing:-.04em}.cls-14{letter-spacing:-.02em}.cls-15{fill:#42cdb2}.cls-16{letter-spacing:-.03em}.cls-17{letter-spacing:-.01em}.cls-18{font-size:80.51px}
+        </style>
+        <clipPath id="clip-path">
+            <path class="cls-1" d="M0 0h1200v1660H0z"/>
+        </clipPath>
+    </defs>
+    <title>
+        Zeichenfläche 1
+    </title>
+    <g class="cls-2">
+        <path class="cls-3" d="M507.93 0v1.32c0 279.74-226.81 506.52-506.6 506.52H0V0z"/>
+        <path class="cls-4" d="M408.99 1666.57H81.58l163.7-210.25 163.71 210.25z"/>
+        <path class="cls-5" d="M275.99 1686.3h386.87l-193.44-248.44-193.43 248.44z"/>
+        <path class="cls-6" d="M517.84 2.13a108.73 108.73 0 1 0 108.75 108.73A108.74 108.74 0 0 0 517.84 2.13zm1.87 165a54.37 54.37 0 1 1 54.38-54.37 54.37 54.37 0 0 1-54.37 54.35z"/>
+        <path class="cls-7" d="M959.69 1248.69c-103.67 0-187.71 84-187.71 187.68S856 1624 959.69 1624s187.71-84 187.71-187.68-84.04-187.63-187.71-187.63zm0 282.18a94.5 94.5 0 1 1 94.52-94.5 94.51 94.51 0 0 1-94.52 94.5z"/>
+        <path class="cls-8" transform="rotate(-45 1108.912 309.604)" d="M941.09 141.92h335.41v335.41H941.09z"/>
+        <ellipse class="cls-9" cx="81.44" cy="1130.45" rx="207.05" ry="206.47"/>
+        <text class="cls-10" transform="translate(112.96 670.02)">
+            <tspan class="cls-11">T</tspan><tspan x="62.11" y="0">e</tspan><tspan class="cls-12" x="144.14" y="0">s</tspan><tspan x="211.97" y="0">t S</tspan><tspan class="cls-13" x="392.72" y="0">V</tspan><tspan x="474.45" y="0">G </tspan><tspan class="cls-14" x="642.54" y="0">L</tspan><tspan x="705.73" y="0">ogo </tspan><tspan class="cls-15"><tspan class="cls-16" x="222.01" y="176.19">P</tspan><tspan x="308.68" y="176.19">ort</tspan><tspan class="cls-17" x="509.06" y="176.19">r</tspan><tspan x="565.14" y="176.19">ait</tspan></tspan><tspan class="cls-18"><tspan x="224.59" y="352.38">1200 x 1660 px</tspan></tspan>
+        </text>
+    </g>
+</svg>
