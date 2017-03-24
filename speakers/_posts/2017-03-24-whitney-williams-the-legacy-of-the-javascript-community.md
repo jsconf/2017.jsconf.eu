@@ -2,9 +2,9 @@
 layout: speaker-page
 tags: speaker
 title: The Legacy of the JavaScript Commmunity – Whitney Williams
-permalink: /speakers/whitney-williams-the-legacy-of-the-javascript-commmunity.html
+permalink: /speakers/whitney-williams-the-legacy-of-the-javascript-community.html
 speaker: Whitney Williams
-talk: The Legacy of the JavaScript Commmunity
+talk: The Legacy of the JavaScript Community
 website: 'http://whitneyeliz.com/'
 twitter: 'https://twitter.com/whitneyhacks'
 github: ' https://github.com/wweliz'
