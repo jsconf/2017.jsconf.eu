@@ -9,7 +9,7 @@ website: 'http://henryzoo.com/'
 twitter: 'https://twitter.com/left_pad'
 github: 'https://github.com/hzoo'
 from: 'New York, United States'
-description: "I would like to explain what goes into maintaining one of the biggest tools used in the JavaScript ecosystem. I will talk about going from not knowing about the project to becoming a user, contributor, and maintainer. Maintenance isn't just about triaging issues/merging PRs, but working with the community, other projects, and mentoring new contributors. I'l go over things we've learned and what the future may hold for the project/OSS in general."
+description: "How did piece of satire lead to a ASCII picture of Guy Fieri getting merged into the Babel source and our t-shirt design? Who is left_pad? How did I go from complete ignorance of one of the biggest tools used in the JavaScript ecosystem to becoming a user, contributor, and eventually maintainer? What are some of the interesting stories that maintaining a project lead to? In this talk, I hope to bring home the fact maintainers are just developers and people like everyone else."
 image:
   height: 292
   width: 292
