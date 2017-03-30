@@ -35,8 +35,8 @@
   <article class="wrapper">
     <div class="item-50 item-deco"></div>
     <div class="item-50 item-content">
-      <h2>More speakers soon!</h2>
-      JSConf EU will be featuring over 40 speakers from around the world. More speakers will be announced over the coming weeks.
+      <h2>A few more speakers to go!</h2>
+      JSConf EU will be featuring over 40 speakers from around the world. A few more speakers will be announced over the coming weeks.
     </div>
   </article>
 
