@@ -10,7 +10,7 @@ permalink: "/rough-schedule/"
 
 *May 5, Friday:* [**CSSConf EU**](http://2017.cssconf.eu/) (Tickets sold separately).
 
-*May 5, Friday:* **CSSConf EU** closing / JSConf EU Opening Party, [Arena Berlin](https://www.google.com/maps/place/Arena+Berlin/@52.496927,13.4517879,17z/data=!3m1!4b1!4m5!3m4!1s0x47a84e55b04a4c0b:0x6852fd9350063186!8m2!3d52.4969238!4d13.4539819), from 20:00.
+*May 5, Friday:* **CSSConf EU** closing / JSConf EU Opening Party, [Arena Club](https://www.google.com/maps/place/Arena+Club/@52.4970511,13.4503502,17z/data=!3m1!4b1!4m5!3m4!1s0x47a84e54542802e5:0x1277f4c1b5af6970!8m2!3d52.4970479!4d13.4525442), from 20:00.
 
 *May 6, Saturday:* **JSConf EU** Day 1, [Arena Berlin](https://www.google.com/maps/place/Arena+Berlin/@52.496927,13.4517879,17z/data=!3m1!4b1!4m5!3m4!1s0x47a84e55b04a4c0b:0x6852fd9350063186!8m2!3d52.4969238!4d13.4539819), Breakfast from 8:30, Grand opening at 09:30, Dinner at around 19:30, Evening program from 21:00.
 
