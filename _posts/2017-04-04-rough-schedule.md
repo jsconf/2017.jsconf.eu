@@ -4,6 +4,7 @@ title: Rough Schedule
 category: news
 tags: news
 figure: /img/what-next.jpg
+permalink: "/rough-schedule/"
 ---
 {% include post-header.html %}
 
