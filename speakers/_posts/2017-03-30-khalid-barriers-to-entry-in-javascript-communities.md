@@ -4,7 +4,7 @@ tags: speaker
 title: Barriers to Entry in the JavaScript Community
 permalink: /speakers/khalid-barriers-to-entry-in-javascript-communities.html
 speaker: Khalid
-talk: Barriers to Entry in JavaScript Communities
+talk: Barriers to Entry in the JavaScript Community
 website: ''
 twitter: ''
 github: 'https://github.com/khaleed'
