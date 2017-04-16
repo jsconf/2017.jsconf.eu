@@ -3,12 +3,14 @@
     <div class="item-100 text-light">
       <h2>Sponsorship</h2>
       <p class="links-light">
-        We are currently offering sponsorship opportunities for JSConf EU 2017. <a href="mailto:contact@jsconf.eu">Contact us for details</a>. These great companies below have supported us at our last event in 2015 – Thank you!
+        We are currently offering sponsorship opportunities for JSConf EU 2017. <a href="mailto:contact@jsconf.eu">Contact us for details</a>. The great companies below are supporting us in 2017 – Thank you!
       </p>
     </div>
   </div>
-  {% assign sponsors=site.tags.sponsor %}
-  <div class="sponsor-list text-light">
+  {% assign _sponsors=site.tags.sponsor %}
+  {% assign sponsors = (_sponsors | sort:'order' | sort:'title') %}
+
+    <div class="sponsor-list text-light">
 
     <!--Special and main sponsors-->
     <div class="sponsor-group">
@@ -21,7 +23,6 @@
       {% endif %}
       {% endfor %}
 
-
       {% for post in sponsors %}
       {% if.post.level == "sponsor-main" %}
       <a href="{{ site.baseurl }}{{ post.permalink }}">
@@ -30,7 +31,6 @@
       {% endif %}
       {% endfor %}
     </div>
-
 
     <!--Supporting sponsors-->
     <div class="sponsor-group">
@@ -44,10 +44,9 @@
       {% endfor %}
     </div>
 
-
     <!--Other sponsors-->
     <div class="sponsor-group">
-      <h3>...and more sponsors</h3>
+      <h3>Our community sponsors</h3>
       {% for post in sponsors %}
       {% if.post.level == "sponsor-custom" %}
       <a href="{{ site.baseurl }}{{ post.permalink }}" class="other">
@@ -55,7 +54,6 @@
       </a>
       {% endif %}
       {% endfor %}
-
 
       {% for post in sponsors %}
       {% if.post.level == "sponsor-verycustom" %}
