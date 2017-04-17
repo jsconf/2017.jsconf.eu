@@ -1,7 +1,7 @@
 ---
 layout: sponsor-page
 tags: sponsor
-level: sponsor-support
+level: c-sponsor-support
 title: Contentful
 permalink: "/sponsors/contentful.html"
 image: "/sponsors/images/contentful.svg"

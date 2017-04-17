@@ -1,7 +1,7 @@
 ---
 layout: sponsor-page
 tags: sponsor
-level: sponsor-custom
+level: d-sponsor-custom
 title: Microsoft Edge
 permalink: "/sponsors/microsoft.html"
 image: "/sponsors/images/microsoft.svg"

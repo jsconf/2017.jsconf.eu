@@ -1,7 +1,7 @@
 ---
 layout: sponsor-page
 tags: sponsor
-level: sponsor-support
+level: c-sponsor-support
 title: Cloudflare
 permalink: "/sponsors/cloudflare.html"
 image: "/sponsors/images/cloudflare.svg"

@@ -7,63 +7,22 @@
       </p>
     </div>
   </div>
-  {% assign _sponsors=site.tags.sponsor %}
-  {% assign sponsors = (_sponsors | sort:'order' | sort:'title') %}
+  {% assign sponsors=site.tags.sponsor %}
 
-    <div class="sponsor-list text-light">
+  <div class="sponsor-list text-light">
 
-    <!--Special and main sponsors-->
-    <div class="sponsor-group">
-      <h3>Our main sponsors</h3>
-      {% for post in sponsors %}
-      {% if.post.level == "sponsor-special" %}
-      <a href="{{ site.baseurl }}{{ post.permalink }}">
-        <img src="{{ site.baseurl }}{{ post.image }}" title="{{ post.title }}">
-      </a>
-      {% endif %}
-      {% endfor %}
-
-      {% for post in sponsors %}
-      {% if.post.level == "sponsor-main" %}
-      <a href="{{ site.baseurl }}{{ post.permalink }}">
-        <img src="{{ site.baseurl }}{{ post.image }}" title="{{ post.title }}">
-      </a>
-      {% endif %}
-      {% endfor %}
-    </div>
-
-    <!--Supporting sponsors-->
-    <div class="sponsor-group">
-      <h3>Our supporting sponsors</h3>
-      {% for post in sponsors %}
-      {% if.post.level == "sponsor-support" %}
-      <a href="{{ site.baseurl }}{{ post.permalink }}" class="supporting">
-        <img src="{{ site.baseurl }}{{ post.image }}" title="{{ post.title }}">
-      </a>
-      {% endif %}
-      {% endfor %}
-    </div>
-
-    <!--Other sponsors-->
-    <div class="sponsor-group">
-      <h3>Our community sponsors</h3>
-      {% for post in sponsors %}
-      {% if.post.level == "sponsor-custom" %}
-      <a href="{{ site.baseurl }}{{ post.permalink }}" class="other">
-        <img src="{{ site.baseurl }}{{ post.image }}" title="{{ post.title }}">
-      </a>
-      {% endif %}
-      {% endfor %}
-
-      {% for post in sponsors %}
-      {% if.post.level == "sponsor-verycustom" %}
-      <a href="{{ site.baseurl }}{{ post.permalink }}" class="other">
-        <img src="{{ site.baseurl }}{{ post.image }}" title="{{ post.title }}">
-      </a>
-      {% endif %}
-      {% endfor %}
-    </div>
-
+    {% assign groupedsponsors = sponsors | sort: 'level' | group_by:"level"  %}
+    {% for group in groupedsponsors %}
+      <div class="sponsor-group group-{{site.data.sponsors.classnames[group.name]}}">
+        <h3>{{site.data.sponsors.headlines[group.name]}}</h3>
+        {% assign posts = group.items | sort: 'title' | sort: 'priority' , 'last'%}
+        {% for post in posts %}
+          <a href="{{ site.baseurl }}{{ post.permalink }}" class="{{site.data.sponsors.classnames[group.name]}}">
+            <img src="{{ site.baseurl }}{{ post.image }}" title="{{ post.title }}">
+          </a>
+        {% endfor %}
+      </div>
+    {% endfor %}
 
   </div>
 </section>

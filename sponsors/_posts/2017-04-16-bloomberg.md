@@ -1,7 +1,7 @@
 ---
 layout: sponsor-page
 tags: sponsor
-level: sponsor-main
+level: b-sponsor-main
 title: Bloomberg
 permalink: "/sponsors/bloomberg.html"
 image: "/sponsors/images/bloomberg.svg"

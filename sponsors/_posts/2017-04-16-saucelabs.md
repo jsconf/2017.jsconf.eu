@@ -1,7 +1,7 @@
 ---
 layout: sponsor-page
 tags: sponsor
-level: sponsor-support
+level: c-sponsor-support
 title: Saucelabs
 permalink: "/sponsors/saucelabs.html"
 image: "/sponsors/images/saucelabs.svg"

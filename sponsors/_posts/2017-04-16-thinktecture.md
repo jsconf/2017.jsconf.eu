@@ -1,7 +1,7 @@
 ---
 layout: sponsor-page
 tags: sponsor
-level: sponsor-main
+level: b-sponsor-main
 title: Thinktecture
 permalink: "/sponsors/thinktecture.html"
 image: "/sponsors/images/thinktecture.svg"
