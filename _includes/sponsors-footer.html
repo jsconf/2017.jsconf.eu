@@ -3,69 +3,26 @@
     <div class="item-100 text-light">
       <h2>Sponsorship</h2>
       <p class="links-light">
-        We are currently offering sponsorship opportunities for JSConf EU 2017. <a href="mailto:contact@jsconf.eu">Contact us for details</a>. These great companies below have supported us at our last event in 2015 – Thank you!
+        We are currently offering sponsorship opportunities for JSConf EU 2017. <a href="mailto:contact@jsconf.eu">Contact us for details</a>. The great companies below are supporting us in 2017 – Thank you!
       </p>
     </div>
   </div>
   {% assign sponsors=site.tags.sponsor %}
+
   <div class="sponsor-list text-light">
 
-    <!--Special and main sponsors-->
-    <div class="sponsor-group">
-      <h3>Our main sponsors</h3>
-      {% for post in sponsors %}
-      {% if.post.level == "sponsor-special" %}
-      <a href="{{ site.baseurl }}{{ post.permalink }}">
-        <img src="{{ site.baseurl }}{{ post.image }}" title="{{ post.title }}">
-      </a>
-      {% endif %}
-      {% endfor %}
-
-
-      {% for post in sponsors %}
-      {% if.post.level == "sponsor-main" %}
-      <a href="{{ site.baseurl }}{{ post.permalink }}">
-        <img src="{{ site.baseurl }}{{ post.image }}" title="{{ post.title }}">
-      </a>
-      {% endif %}
-      {% endfor %}
-    </div>
-
-
-    <!--Supporting sponsors-->
-    <div class="sponsor-group">
-      <h3>Our supporting sponsors</h3>
-      {% for post in sponsors %}
-      {% if.post.level == "sponsor-support" %}
-      <a href="{{ site.baseurl }}{{ post.permalink }}" class="supporting">
-        <img src="{{ site.baseurl }}{{ post.image }}" title="{{ post.title }}">
-      </a>
-      {% endif %}
-      {% endfor %}
-    </div>
-
-
-    <!--Other sponsors-->
-    <div class="sponsor-group">
-      <h3>...and more sponsors</h3>
-      {% for post in sponsors %}
-      {% if.post.level == "sponsor-custom" %}
-      <a href="{{ site.baseurl }}{{ post.permalink }}" class="other">
-        <img src="{{ site.baseurl }}{{ post.image }}" title="{{ post.title }}">
-      </a>
-      {% endif %}
-      {% endfor %}
-
-
-      {% for post in sponsors %}
-      {% if.post.level == "sponsor-verycustom" %}
-      <a href="{{ site.baseurl }}{{ post.permalink }}" class="other">
-        <img src="{{ site.baseurl }}{{ post.image }}" title="{{ post.title }}">
-      </a>
-      {% endif %}
-      {% endfor %}
-    </div>
-
+    {% assign groupedsponsors = sponsors | sort: 'level' | group_by:"level"  %}
+    {% for group in groupedsponsors %}
+      <div class="sponsor-group group-{{site.data.sponsors.classnames[group.name]}}">
+        <h3>{{site.data.sponsors.headlines[group.name]}}</h3>
+        {% assign posts = group.items | sort: 'title' | sort: 'priority' , 'last'%}
+        {% for post in posts %}
+          <a href="{{ site.baseurl }}{{ post.permalink }}" class="{{site.data.sponsors.classnames[group.name]}}">
+            <img src="{{ site.baseurl }}{{ post.image }}" title="{{ post.title }}">
+          </a>
+        {% endfor %}
+      </div>
+    {% endfor %}
 
   </div>
 </section>

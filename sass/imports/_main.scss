@@ -435,6 +435,9 @@ figure {
   padding: (2 * $site-padding) $site-padding;
   .sponsor-group {
     margin-bottom: 2em;
+    &.group-special{
+      margin-bottom: 0;
+    }
   }
 
   a {

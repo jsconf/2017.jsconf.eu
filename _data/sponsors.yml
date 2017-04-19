@@ -1,0 +1,11 @@
+headlines:
+  a-sponsor-special: "Our main sponsors"
+  b-sponsor-main: ""
+  c-sponsor-support: "Our supporting sponsors"
+  d-sponsor-custom: "Our community sponsors"
+
+classnames:
+  a-sponsor-special: "special"
+  b-sponsor-main: "main"
+  c-sponsor-support: "supporting"
+  d-sponsor-custom: "other"
