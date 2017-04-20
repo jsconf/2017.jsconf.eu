@@ -1,7 +1,7 @@
 ---
 layout: speaker-page
 tags: speaker
-title: "What's new in Netscape Navigator 2.0 – Macin Szczepanski"
+title: "What's new in Netscape Navigator 2.0 – Marcin Szczepanski"
 permalink: /speakers/2017-03-23-marc-szczepanski-whats-new-in-netscape-navigator-20.html
 speaker: Marcin Szczepanski
 talk: "What's new in Netscape Navigator 2.0"
