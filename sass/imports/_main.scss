@@ -433,6 +433,8 @@ figure {
   text-align: center;
   background: $color_blue;
   padding: (2 * $site-padding) $site-padding;
+  max-width: 1280px;
+  margin: 0 auto;
   .sponsor-group {
     margin-bottom: 2em;
     &.group-special{
