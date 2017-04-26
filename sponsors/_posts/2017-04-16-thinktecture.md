@@ -4,7 +4,7 @@ tags: sponsor
 level: b-sponsor-main
 title: Thinktecture
 permalink: "/sponsors/thinktecture.html"
-image: "/sponsors/images/thinktecture.svg"
+image: "/sponsors/images/thinktecture-red.svg"
 link: "http://www.thinktecture.com"
 ---
 
