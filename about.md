@@ -9,6 +9,12 @@
 
 See also: [Why you should attend JSConf EU.](/why)
 
+## Location
+
+[Arena Berlin](https://www.google.com/maps/place/Arena+Berlin/@52.4971901,13.448364,16.92z/data=!4m8!1m2!2m1!1sdie+arena+berlin!3m4!1s0x0:0x6852fd9350063186!8m2!3d52.4969238!4d13.4539819). See [dedicated page for details.](/location/)
+
+## Videos
+
 JSConf EU, the labour-of-love conference for the JS community in Europe. Let the moving images speak for themselves:
 
 ## 2015 Summary
@@ -30,10 +36,6 @@ JSConf EU, the labour-of-love conference for the JS community in Europe. Let the
 ## 2011 Summary
 {% assign video_id="30988223" %}
 {% include vimeo.md %}
-
-## Location
-
-See [dedicated page for details.](/location/)
 
 ## Curators
 
