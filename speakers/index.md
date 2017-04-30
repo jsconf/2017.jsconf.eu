@@ -32,14 +32,6 @@
       </article>
     {% endfor %}
 
-  <article class="wrapper">
-    <div class="item-50 item-deco"></div>
-    <div class="item-50 item-content">
-      <h2>That's it for 2017.</h2>
-      JSConf EU features 50+ from all over the world.
-    </div>
-  </article>
-
 </section>
 
 
