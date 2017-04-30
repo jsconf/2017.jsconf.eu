@@ -8,7 +8,7 @@ permalink: "/info-summary/"
 ---
 {% include post-header.html %}
 
-Check out the following posts for latest on JSConf EU
+Check out the following posts for all the latest info on JSConf EU:
 
 - [Rough schedule](/rough-schedule/)
 - [Saturday party](/the-party/)
