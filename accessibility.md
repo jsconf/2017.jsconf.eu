@@ -19,3 +19,7 @@ We will reserve you a ticket until we found out whether your issue can be resolv
 If you are in need of an assistant, they will not be required to buy a ticket.
 
 We would love to welcome you to our conferences!
+
+## At the event
+
+If you are attending the conference, find more info on our [event accessibility page](/a11y/)

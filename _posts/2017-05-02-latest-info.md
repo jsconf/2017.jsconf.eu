@@ -15,3 +15,5 @@ Check out the following posts for all the latest info on JSConf EU:
 - [Saturday party](/the-party/)
 - [Festival area](/festival/)
 - [Location](/location/)
+- [Accessibility](/a11y/)
+- [Childcare](/childcare/)
