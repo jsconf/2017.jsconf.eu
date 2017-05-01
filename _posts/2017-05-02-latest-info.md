@@ -10,7 +10,8 @@ permalink: "/info-summary/"
 
 Check out the following posts for all the latest info on JSConf EU:
 
-- [Rough schedule](/rough-schedule/)
+- [Schedule overview](/rough-schedule/)
+- [Timetable of talks](/schedule/)
 - [Saturday party](/the-party/)
 - [Festival area](/festival/)
 - [Location](/location/)
