@@ -11,12 +11,10 @@
 
 </div>
 
-## Need Help? Contact Tiffany
+## Need Help? Contact Simone or Jan
 
-Tiffany Conroy
-Twitter: [@theophani](https://twitter.com/theophani)
-Email: [tiffany@jsconf.eu](mailto:tiffany@jsconf.eu)
-Phone(de): +4917632578373
+Simone Haas / Jan Lehnardt
+Phone(de): +49 1573 5983 779
 
 ## The Quick Version
 
@@ -39,4 +37,3 @@ In case you can’t find a staff member, Tiffany Conroy is always there for you:
 Conference staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.
 
 We expect participants to follow these rules at conference and workshop venues, conference-related social events and social media.
-
