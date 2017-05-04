@@ -13,16 +13,19 @@
         font-size: 2em;
     }
     .wrapper{
-
         background: rgba(12, 18, 34,.8);
         height: 100vh;
         width: 100vw;
         display: flex;
+        align-items: center;
     }
 
 
-
-
+    section {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+    }
 
     header{
         font-family: "jaf-bernina-sans-comp", 'Arial Narrow', sans-serif;
@@ -57,19 +60,23 @@
 </style>
 <body>
 
-<div class ="wrapper">
+<div class="wrapper">
 <section id=back>
-  <header>Back Track</header>
-  <div class=time>09:30</div>
-  <div class=speaker>Addy Osmani</div>
-  <div class=talk>Addy Osmani</div>
+  <div>
+    <header>Back Track</header>
+    <div class=time>09:30</div>
+    <div class=speaker>Addy Osmani</div>
+    <div class=talk>Addy Osmani</div>
+  </div>
 </section>
 
-<section id=side>
-  <header>Side Track</header>
-  <div class=time>09:30</div>
-  <div class=speaker>Addy Osmani</div>
-  <div class=talk>Addy Osmani</div>
+<section id=side style="background-color: #051add">
+  <div>
+    <header>Side Track</header>
+    <div class=time>09:30</div>
+    <div class=speaker>Addy Osmani</div>
+    <div class=talk>Addy Osmani</div>
+  </div>
 </section>
 </div>
 
