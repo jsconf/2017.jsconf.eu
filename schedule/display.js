@@ -1,4 +1,4 @@
-var VERSION = 3;
+var VERSION = 4;
 var DATA = null;
 
 function onData(data) {
@@ -18,7 +18,7 @@ function renderNext() {
   console.info('Rendered');
 }
 
-setInterval(renderNext, 5 * 1000);
+setInterval(renderNext, 2 * 1000);
 
 function findNextInTrack(trackId, data) {
   var talk = {
@@ -33,7 +33,7 @@ function findNextInTrack(trackId, data) {
     var start = t.startTime.split('.').map(str => parseInt(str, 10));
     var hour = start[0];
     var minute = start[1];
-    console.log('Talk', hour, minute, time.getHours(), time.getMinutes())
+    console.info('Talk', hour, minute, time.getHours(), time.getMinutes())
     if (hour > time.getHours()
         || (hour == time.getHours() && minute > time.getMinutes())) {
       console.info('Found ', t);
@@ -56,7 +56,9 @@ function render(id, data) {
 }
 
 function moreData() {
-  getData().then(onData);
+  getData().then(onData).catch(() => {
+    setTimeout(moreData, 5 * 1000 * Math.random());
+  });
 }
 
 moreData();
@@ -153,6 +155,15 @@ function cleanup(data) {
 
 function getData() {
   return fetch('https://spreadsheets.google.com/feeds/cells/1kjFshBwdJzAz4IT-02ZTPUTtQYYl4zk9IxuwsohOTos/od4/public/basic?alt=json')
+    .then(response => {
+      if (response.status >= 200 && response.status < 300) {
+        return response;
+      } else {
+        var error = new Error(response.statusText || response.status);
+        error.response = response;
+        return Promise.reject(error)
+      }
+    })
     .then(res => res.json())
     .then(makeLessCrappy)
     .then(structureData)
