@@ -1,4 +1,4 @@
-var VERSION = 5;
+var VERSION = 8;
 var DATA = null;
 
 function onData(data) {
@@ -73,7 +73,7 @@ setInterval(function() {
     var string = 'VERSION = ' + VERSION;
     if (text.indexOf(string) == -1) {
       // new version available
-      location.reload();
+      location.href = location.pathname + '?' + Date.now();
     }
   });
 }, 20 * 1000);
