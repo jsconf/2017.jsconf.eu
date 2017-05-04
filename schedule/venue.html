@@ -1,15 +1,63 @@
 <!doctype html>
 <head>
-  <title>JSConf schedule</title>
-  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <title>JSConf schedule</title>
+
 </head>
 <style>
-  section:not(.active) {
-    display: none;
-  }
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: "jaf-bernina-sans", Arial, sans-serif;
+        background: #0C1222 url(jsconf-pattern.svg) 0 0 repeat;
+        color: white;
+        font-size: 2em;
+    }
+    .wrapper{
+
+        background: rgba(12, 18, 34,.8);
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+    }
+
+
+
+
+
+    header{
+        font-family: "jaf-bernina-sans-comp", 'Arial Narrow', sans-serif;
+        font-size: 3em;
+    }
+    .talk{
+        font-size: 1.5em;
+        margin-top: .5em;
+        line-height: 1.2em;
+    }
+    .speaker{
+        font-size: 0.8em;
+        margin-top: 1.2em;
+    }
+    .time{
+        font-family: "jaf-bernina-sans-comp", 'Arial Narrow', sans-serif;
+        font-size: 2em;
+        margin-top: -.3em;
+    }
+    section:not(.active) {
+        display: none;
+        width: 50%;
+        padding: 100px;
+        max-width: 960px;
+    }
+    section.active {
+        width: 50%;
+        padding: 100px;
+        max-width: 960px;
+    }
+
 </style>
 <body>
 
+<div class ="wrapper">
 <section id=back>
   <header>Back Track</header>
   <div class=time>09:30</div>
@@ -23,8 +71,11 @@
   <div class=speaker>Addy Osmani</div>
   <div class=talk>Addy Osmani</div>
 </section>
+</div>
 
 <script>
 document.write('<' + 'script src="display.js?' + Date.now() + '"><'+'/script>');
 </script>
+<script src="//use.typekit.net/ekp1paj.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
 </body>

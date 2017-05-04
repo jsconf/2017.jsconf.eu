@@ -1,4 +1,4 @@
-var VERSION = 4;
+var VERSION = 5;
 var DATA = null;
 
 function onData(data) {
