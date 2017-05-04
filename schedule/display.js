@@ -67,7 +67,7 @@ setInterval(moreData, 30 * 1000);
 
 // Make sure that we pick up new versions.
 setInterval(function() {
-  fetch('./display.js').then(response => {
+  fetch('./display.js?' + Date.now()).then(response => {
     return response.text();
   }).then(text => {
     var string = 'VERSION = ' + VERSION;
