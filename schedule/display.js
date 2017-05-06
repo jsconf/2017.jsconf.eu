@@ -1,4 +1,4 @@
-var VERSION = 9;
+var VERSION = 10;
 var DATA = null;
 
 function onData(data) {
@@ -124,7 +124,6 @@ function structureData(lessCrappyData) {
       if (!tracks[track]) {
         tracks[track] = {};
       }
-
       tracks[track][field] = lessCrappyData[row][col];
     }
 
@@ -154,7 +153,7 @@ function cleanup(data) {
 }
 
 function getData() {
-  return fetch('https://spreadsheets.google.com/feeds/cells/1kjFshBwdJzAz4IT-02ZTPUTtQYYl4zk9IxuwsohOTos/od4/public/basic?alt=json')
+  return fetch('https://spreadsheets.google.com/feeds/cells/1kjFshBwdJzAz4IT-02ZTPUTtQYYl4zk9IxuwsohOTos/ounnlci/public/basic?alt=json')
     .then(response => {
       if (response.status >= 200 && response.status < 300) {
         return response;
