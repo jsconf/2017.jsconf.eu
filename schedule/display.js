@@ -12,7 +12,7 @@ function renderNext() {
     console.info('No data');
     return;
   }
-  var day = new Date().getDay() < 6 ? 0 : 1;
+  var day = new Date().getDay() != 0 /*  Sunday */ ? 0 : 1;
   findNextInTrack('back', DATA.backtrack[day]);
   findNextInTrack('side', DATA.sidetrack[day]);
   console.info('Rendered');
