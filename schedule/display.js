@@ -1,4 +1,4 @@
-var VERSION = 8;
+var VERSION = 9;
 var DATA = null;
 
 function onData(data) {
