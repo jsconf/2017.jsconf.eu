@@ -2,7 +2,7 @@
   <meta charset="utf-8" />
   <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <link rel="canonical" href="http://2017.jsconf.eu{{ page.url | replace:'index.html','' }}" />
+  <link rel="canonical" href="https://2017.jsconf.eu{{ page.url | replace:'index.html','' }}" />
   <link rel="stylesheet" href="{{ site.baseurl }}/stylesheets/screen.css" type="text/css" media="screen, projection" />
   <script src="https://use.typekit.net/ekp1paj.js"></script>
   <script>try{Typekit.load();}catch(e){}</script>
@@ -16,7 +16,7 @@
   {% endif %}
   <meta name="twitter:site" content="@jsconfeu">
   {% if page.video %}
-  <meta property="og:video" content="http://www.youtube.com/v/{{ page.video }}">
+  <meta property="og:video" content="https://www.youtube.com/v/{{ page.video }}">
   {% endif %}
   {% assign image_filename="/img/js.eu.png" %}
   {% if page.image %}
@@ -25,9 +25,9 @@
       {% assign image_filename=page.image.filename %}
     {% endif %}
   {% endif %}
-  <meta itemprop="image" content="http://2017.jsconf.eu{{ image_filename }}">
-  <meta name="twitter:image" content="http://2017.jsconf.eu{{ image_filename }}">
-  <meta property="og:image" content="http://2017.jsconf.eu{{ image_filename }}"/>
+  <meta itemprop="image" content="https://2017.jsconf.eu{{ image_filename }}">
+  <meta name="twitter:image" content="https://2017.jsconf.eu{{ image_filename }}">
+  <meta property="og:image" content="https://2017.jsconf.eu{{ image_filename }}"/>
 
   {% if page.twitter %}
   <meta name="twitter:creator" content="@{{ page.twitter | split:'/' | last }}">

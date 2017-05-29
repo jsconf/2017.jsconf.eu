@@ -10,7 +10,7 @@ figure: /img/what-next.jpg
 
 We are striving for the most diverse group of people possible — **we firmly believe in equality**, thus we invite everyone and anyone to participate. In order to make this possible, we are proud to announce our scholarship programme for people who would otherwise be unable to participate.
 
-Our scholarship fund will support about **sixty people** to attend [JSConf EU](http://2017.jsconf.eu/) and/or [CSSconf EU](http://2017.cssconf.eu/). Scholarships include a free ticket to the conference that will be awarded after an application process and lottery. Depending on the funds we can raise, we plan to also fully sponsor travel expenses and accommodation, if required.
+Our scholarship fund will support about **sixty people** to attend [JSConf EU](https://2017.jsconf.eu/) and/or [CSSconf EU](http://2017.cssconf.eu/). Scholarships include a free ticket to the conference that will be awarded after an application process and lottery. Depending on the funds we can raise, we plan to also fully sponsor travel expenses and accommodation, if required.
 
 Anyone from an underrepresented group in tech is invited to apply for this scholarship. This includes, but is not limited to: women, people of colour, LGBTQIA+ people, disabled people, and people facing economic or social hardships.
 
