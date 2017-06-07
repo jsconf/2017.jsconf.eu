@@ -2,7 +2,7 @@
 layout: speaker-page
 tags: speaker
 title: Barriers to Entry in the JavaScript Community
-permalink: /speakers/khalid-barriers-to-entry-in-javascript-communities.html
+permalink: /speakers/khalid-barriers-to-entry-in-the-javascript-community.html
 speaker: Khalid
 talk: Barriers to Entry in the JavaScript Community
 website: ''
